@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import Canvas from '../../components/Canvas';
 
 // import '../../../styles/globals.css'
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://wbserver.onrender.com';
 
 export default function Room() {
   const router = useRouter();

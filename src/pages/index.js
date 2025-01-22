@@ -6,7 +6,7 @@ import Navbar from '../components/Navbar';
 
 
 
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://wbserver.onrender.com';
 
 export default function Home() {
   const router = useRouter();
